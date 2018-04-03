@@ -1,17 +1,17 @@
 # Ping Pong
-###Created on, 29.03.2018
-###By Immanuel Mugambi
+### Created on, 29.03.2018
+### By Immanuel Mugambi
 
-##Description
+## Description
 This is a ping pong game created as my third independent project.
 
-##Technologies Used
+## Technologies Used
 HTML and CSS were used to develop the website
 Bootstrap was used in providing styling templates for the website
 jQuery was used in manipulating the DOM
 Git was used for tracking changes on the local and remote repositories.
 
-##Project Setup Instructions
+## Project Setup Instructions
 Create a remote repository on github.
 Initialize a local repository using git init command on the project directory.
 Create the required html, js and css files and image directories.
