@@ -1,7 +1,9 @@
 #lets-play{
-    background-image: url("../images/background.png");
+    background-image: url("../images/Background.png");
+    background-size: cover;
+    padding: 95px;
+    color: white;
 }
-
 .page-footer{
     position:fixed;bottom:0;left:0;right:0;height:150px;
     background-color: black;
