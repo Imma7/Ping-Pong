@@ -36,7 +36,7 @@ strong {
 
 .page-footer{
     background-image: url("../images/blueknit.jpg");
-    position:fixed;bottom:0;left:0;right:0;height:150px;
+    position:relative;bottom:0;left:0;right:0;height:150px;
     background-color: black;
     color: white;
     font-size: 20px;
