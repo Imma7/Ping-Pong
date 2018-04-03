@@ -1,0 +1,18 @@
+#lets-play{
+    background-image: url("../images/background.png");
+}
+
+.page-footer{
+    position:fixed;bottom:0;left:0;right:0;height:150px;
+    background-color: black;
+    color: gray;
+    font-size: 20px;
+}
+
+.text-uppercase{
+    font-size: 20px;
+}
+
+.footer-copyright{
+    color: gray;
+}

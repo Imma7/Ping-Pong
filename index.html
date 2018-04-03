@@ -7,39 +7,87 @@
 </head>
 <body>
     <div class="container-fluid">
-        <div class="jumbotron">
+        <div class="jumbotron text-center">
             <h1>Ping-Pong</h1>
         </div>
 
-        <div class="container-fluid">
+        <div class="container-fluid text-center" id="let-play">
                 <h1>Let's play!</h1>
                 <h3>Rules:</h3>
+                
+                <br>
+                <br>
+
                 <p>Ping Pong will count up to your number from 1 with the following exceptions:</p>
 
-                <ol>
+                <br>
+                <br>
+
+                <ol class="list-unstyled">
                     <li>Numbers divisible by 3 become "ping"</li>
                     <li>Numbers divisible by 5 become "pong"</li>
                     <li>Numbers divisible by 3 and 5 become "pingpong"</li>
                 </ol>
 
-                <form>
-                    <label for="">Enter your number here:</label>
-                    <input type="text">
+                <br>
+                <br>
 
-                    <button type="submit">Ping Pong!</button>
+                <form id="formNum">
+                    <label for="number">Enter your number here:</label>
+                    <input type="text" id="inputNum">
+
+                    <button type="submit" >Ping Pong!</button>
                 </form>
         </div>
 
+        <div id="result"></div>
+        
         <div class="container-fluid">
-            <h1>About Ping Pong</h1>
-            <h3>Created by:</h3>
-            <p>Kit Fisto</p>
-            <h3>GitHub Username/URL:</h3>
-            <P>greensaber</P>
-            <h3>Level 2 Test for:</h3>
-            <p>Java</p>
+            
+        </div>
+
+        <!--Footer-->
+<footer class="page-footer font-large white pt-4 mt-4">
+
+    <!--Footer Links-->
+    <div class="container-fluid text-center text-md-left">
+        <div class="row">
+
+            <!--First column-->
+            <div class="col-md-6">
+                <h5 class="text-uppercase">Created by :</h5>
+                <p>Immanuel Mugambi</p>
+            </div>
+            <!--/.First column-->
+
+            <!--Second column-->
+            <div class="col-md-6">
+                <h5 class="text-uppercase">GitHub Username/URL:</h5>
+                <!-- <ul class="list-unstyled"> -->
+                    <!-- <p>GitHub Username/URL:  -->
+                        <a href="https://github.com/Imma7">Imma7</a>
+                    <!-- </p> -->
+                <!-- </ul> -->
+            </div>
+            <!--/.Second column-->
         </div>
     </div>
+    <!--/.Footer Links-->
+    <br>
+    
+    <!--Copyright-->
+    <div class="footer-copyright py-3 text-center">
+        © 2018 Copyright:
+        <a href="https://github.com/Imma7"> Immanuel Mugambi </a>
+    </div>
+    <!--/.Copyright-->
+
+</footer>
+<!--/.Footer-->
+    </div>
+
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
     
 </body>
 </html>
