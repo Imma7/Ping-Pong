@@ -1,9 +1,25 @@
+body{
+    background-image: url("../images/.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+.page-header{
+    background-image: url("../images/splashcolor.jpg");
+    /* background-color: aqua; */
+    max-width: 100%;
+    padding: 10px;
+    /* margin: 0%; */
+}
+
 #lets-play{
-    background-image: url("../images/Background.png");
+    /* background-image: url("../images/Background.png"); */
     background-size: cover;
     /* margin: 0px; */
     padding: 95px;
     color: black;
+
 }
 
 .list-unstyled{
@@ -19,9 +35,10 @@ strong {
 } */
 
 .page-footer{
+    background-image: url("../images/blueknit.jpg");
     position:fixed;bottom:0;left:0;right:0;height:150px;
     background-color: black;
-    color: gray;
+    color: white;
     font-size: 20px;
 }
 
@@ -29,6 +46,13 @@ strong {
     font-size: 20px;
 }
 
-.footer-copyright{
-    color: gray;
+a {
+    color: black;   
 }
+
+a :hover{
+    color: lime;
+}
+/* .footer-copyright{
+    color: gray;
+} */
