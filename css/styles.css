@@ -1,9 +1,23 @@
 #lets-play{
     background-image: url("../images/Background.png");
     background-size: cover;
+    /* margin: 0px; */
     padding: 95px;
+    color: black;
+}
+
+.list-unstyled{
+    font-size: 18px;
+}
+
+strong {
     color: white;
 }
+
+/* #button{
+    background-color: red;
+} */
+
 .page-footer{
     position:fixed;bottom:0;left:0;right:0;height:150px;
     background-color: black;
